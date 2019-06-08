@@ -22,6 +22,8 @@ h2:hover {
 h4 { 
 	font-family: 'Lato'; 
 	color: #505050; 
+	padding: 1px;
+	margin: 1px;
 }
 a {
 	color: #505050;
