@@ -1,17 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Changing defaults */
 html {
-	margin-top: 10px; margin-left: 20px; font-size: calc(1em) 
+	margin-top: 10px; margin-left: 20px; margin-right: 20px; font-size: calc(1em) 
 }
 body {
 	background: #FFFFFF;
 }
-h1 {font-family: 'Roboto'; color: #2C98CB}
-h2 {font-family: 'Lato'; color: #505050}
-h4 {	
-	margin: 0; font-family: 'Lato'; color: #505050; 
+h1 {
+	font-family: 'Roboto'; 
+	color: #2C98CB;
 }
-p {font-family: 'Lato'; color: #505050}
-a {color: #505050}
-overall {color: blue}
+h2 {
+	font-family: 'Lato'; 
+	color: #505050;
+}
+h2:hover {
+	opacity: 0.5;
+}
+h4 {	
+	margin-top: 0; 
+	font-family: 'Lato'; 
+	color: #505050; 
+}
+a {
+	color: #505050;
+	text-decoration: none;
+}
+a:hover {
+	color: #2C98CB;
+}
+.collapsible{
+	color: red;
+	background-color: none;
+	outline: none;
+}
+p {
+	padding: 1px;
+	margin: 1px;
+}
+
+/* Mydivs */
+div {
+	padding: 1px;
+	margin: 1px;
+}
+#overall {
+	font-family: 'Lato';
+	color: #505050;
+	padding: 1px;
+	margin: 1px;
+	scroll-behavior: smooth;
+}
